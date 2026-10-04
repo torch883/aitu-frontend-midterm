@@ -60,6 +60,32 @@ a {
     color: #f2b705;
 }
 
+.hero {
+    position: relative;
+    height: 480px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(11, 42, 111, 0.85);
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+.hero-text h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
 .btn-primary {
     background-color: #f2b705;
     border-color: #f2b705;
@@ -71,6 +97,43 @@ a {
     background-color: #d9a404;
     border-color: #d9a404;
     color: #1c2541;
+}
+
+.info-card {
+    background-color: #ffffff;
+    border: 1px solid #d8deeb;
+    border-radius: 8px;
+    height: 100%;
+    padding: 24px;
+}
+
+.info-card h3 {
+    font-size: 20px;
+}
+
+.info-card p {
+    margin-bottom: 0;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.stat {
+    background-color: #0b2a6f;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 24px;
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    color: #f2b705;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .site-footer {
