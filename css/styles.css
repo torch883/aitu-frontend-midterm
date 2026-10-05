@@ -153,6 +153,11 @@ a {
     padding: 24px;
 }
 
+.programs-table th {
+    background-color: #0b2a6f;
+    color: #ffffff;
+}
+
 .site-footer {
     background-color: #1c2541;
     color: #c9d1e3;
