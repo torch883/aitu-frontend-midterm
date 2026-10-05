@@ -158,6 +158,13 @@ a {
     color: #ffffff;
 }
 
+#contact-form {
+    background-color: #ffffff;
+    border: 1px solid #d8deeb;
+    border-radius: 8px;
+    padding: 24px;
+}
+
 .site-footer {
     background-color: #1c2541;
     color: #c9d1e3;
